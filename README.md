@@ -20,4 +20,4 @@ Keys + TAB
 
 ## Next
 
-2: Type conversion
+2: A look at the window object
