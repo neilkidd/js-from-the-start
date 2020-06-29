@@ -20,4 +20,4 @@ Keys + TAB
 
 ## Next
 
-2: A look at the window object
+[3: What is the dom](https://learning.oreilly.com/videos/modern-javascript-from/9781789539509/9781789539509-video3_1)

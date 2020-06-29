@@ -58,7 +58,8 @@ for (var key of Object.keys(referenceTypes)) {
     console.log("typeof(" + key + ")==" + typeof(referenceTypes[key]));
 }
 
-//Type coercion
+//Type coercion & conversions
+// Number to string
 const val1 = 1;
 const val2 = "2";
 const sum = val1 + val2;
@@ -66,7 +67,32 @@ const sum = val1 + val2;
 console.log(sum);
 console.log('number + string ==' + typeof(sum));
 
+//bool to string
+console.log(new String(true));
+
+//array to string
+console.log(new String([1,2,3,4]));
+
+//null to string
+console.log(new Number(null));
+
+//undefined to string
+console.log(new Number(undefined));
+
 // String templating
 const buffer = `val1=${val1}`;
 console.log(buffer);
+
+//Window methods, objects and properties
+window.console.log("window.console.log === console.log");
+
+// if(confirm('Are you sure?')){
+    // console.log('Confirmed');
+// } else {
+    // console.log('Not confirmed');
+// }
+
+console.log(window.location);
+
+
 
